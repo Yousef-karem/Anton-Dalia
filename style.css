@@ -274,6 +274,21 @@ a {
   white-space: nowrap;
 }
 
+.date-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--olive);
+}
+
+.date-time svg {
+  color: var(--gold-muted);
+}
+
 .divider {
   display: flex;
   align-items: center;
