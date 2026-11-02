@@ -180,6 +180,14 @@ a {
   animation: fadeUp 0.8s ease 0.2s both;
 }
 
+.intro__tagline {
+  font-family: var(--font-script);
+  font-size: 1.15rem;
+  color: var(--gold-muted);
+  margin-top: 0.65rem;
+  animation: fadeUp 0.9s ease 0.5s both;
+}
+
 .names {
   display: flex;
   flex-direction: column;
@@ -358,6 +366,21 @@ a {
   line-height: 1.55;
 }
 
+.event-card__time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  color: var(--olive);
+  font-weight: 500;
+}
+
+.event-card__time svg {
+  color: var(--gold-muted);
+  flex-shrink: 0;
+}
+
 .event-card__bouquet {
   margin-top: auto;
   padding-top: 0.75rem;
@@ -402,6 +425,14 @@ a {
 
 .location__label svg {
   color: var(--gold-muted);
+}
+
+.location__address {
+  font-size: 0.78rem;
+  color: var(--gold-muted);
+  line-height: 1.7;
+  max-width: 22rem;
+  margin: 0 auto 0.9rem;
 }
 
 .location__grid {

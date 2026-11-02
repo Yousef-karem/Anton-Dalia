@@ -1,6 +1,6 @@
 /* Wedding invitation — countdown + music player */
 
-const WEDDING_DATE = new Date("2026-09-06T18:00:00");
+const WEDDING_DATE = new Date("2026-11-05T18:00:00");
 
 /* ===== Countdown ===== */
 const daysEl = document.getElementById("days");
